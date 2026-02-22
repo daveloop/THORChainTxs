@@ -1,0 +1,25 @@
+{
+  "name": "thorchaintxs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/cryptotickler/THORChainTxs#readme",
+  "bugs": {
+    "url": "https://github.com/cryptotickler/THORChainTxs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptotickler/THORChainTxs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "query": "node src/query_thorchain.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "@xchainjs/xchain-thorchain-query": "^0.1.0"
+  }
+}
